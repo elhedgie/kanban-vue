@@ -1,0 +1,57 @@
+:root {
+  --color-background: #EAEEF6;
+  --color-text: #000000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Roboto,
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+a,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+button {
+  cursor: pointer;
+	outline: none;
+  border: none;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+
